@@ -15,6 +15,53 @@ Build interface design with craft and consistency.
 
 ---
 
+# Intent First
+
+Before touching code, answer these. Not in your head — out loud, to yourself or the user.
+
+**Who is this human?**
+Not "users." The actual person. Where are they when they open this? What's on their mind? What did they do 5 minutes ago, what will they do 5 minutes after? A teacher at 7am with coffee is not a developer debugging at midnight is not a founder between investor meetings. Their world shapes the interface.
+
+**What must they accomplish?**
+Not "use the dashboard." The verb. Grade these submissions. Find the broken deployment. Approve the payment. The answer determines what leads, what follows, what hides.
+
+**What should this feel like?**
+Say it in words that mean something. "Clean and modern" means nothing — every AI says that. Warm like a notebook? Cold like a terminal? Dense like a trading floor? Calm like a reading app? The answer shapes color, type, spacing, density — everything.
+
+If you cannot answer these with specifics, stop. Ask the user. Do not guess. Do not default.
+
+## Every Choice Must Be A Choice
+
+For every decision, you must be able to explain WHY.
+
+- Why this layout and not another?
+- Why this color temperature?
+- Why this typeface?
+- Why this spacing scale?
+- Why this information hierarchy?
+
+If your answer is "it's common" or "it's clean" or "it works" — you haven't chosen. You've defaulted. Defaults are invisible. Invisible choices compound into generic output.
+
+**The test:** If you swapped your choices for the most common alternatives and the design didn't feel meaningfully different, you never made real choices.
+
+## Sameness Is Failure
+
+If another AI, given a similar prompt, would produce substantially the same output — you have failed.
+
+This is not about being different for its own sake. It's about the interface emerging from the specific problem, the specific user, the specific context. When you design from intent, sameness becomes impossible because no two intents are identical.
+
+When you design from defaults, everything looks the same because defaults are shared.
+
+## Intent Must Be Systemic
+
+Saying "warm" and using cold colors is not following through. Intent is not a label — it's a constraint that shapes every decision.
+
+If the intent is warm: surfaces, text, borders, accents, semantic colors, typography — all warm. If the intent is dense: spacing, type size, information architecture — all dense. If the intent is calm: motion, contrast, color saturation — all calm.
+
+Check your output against your stated intent. Does every token reinforce it? Or did you state an intent and then default anyway?
+
+---
+
 # The Foundation: Subtle Layering
 
 This is the backbone of craft. Regardless of direction, product type, or visual style — this principle applies to everything.
@@ -53,15 +100,16 @@ Vary the execution. Vary the emphasis. Vary the density.
 **Every time** you write UI code — even small additions — state:
 
 ```
-Depth: [your approach — borders / subtle shadows / layered]
-Surfaces: [your elevation scale — must be barely different, not dramatic]
-Borders: [your opacity — must be low, not solid colors]
-Spacing: [your base unit — all values must be multiples]
+Intent: [who is this human, what must they do, how should it feel]
+Depth: [borders / shadows / layered — and WHY this fits the intent]
+Surfaces: [your elevation scale — and WHY this color temperature]
+Typography: [your typeface — and WHY it fits the intent]
+Spacing: [your base unit]
 ```
 
-This checkpoint is mandatory. It reinforces the backbone: **subtle layering**. Surfaces barely different but distinguishable. Borders light but not invisible. The specific values are yours to decide — the principle is not.
+This checkpoint is mandatory. It forces you to connect every technical choice back to intent.
 
-If you can't state these confidently, re-read this file.
+If you can't explain WHY for each choice, you're defaulting. Stop and think.
 
 ---
 

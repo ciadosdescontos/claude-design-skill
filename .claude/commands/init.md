@@ -17,20 +17,33 @@ Do not skip this. The craft knowledge is in these files.
 
 **Scope:** Dashboards, apps, tools, admin panels. Not landing pages or marketing sites.
 
+## Intent First — Answer Before Building
+
+Before touching code, answer these out loud:
+
+**Who is this human?** Not "users." Where are they? What's on their mind? A teacher at 7am with coffee is not a developer debugging at midnight.
+
+**What must they accomplish?** Not "use the dashboard." The verb. Grade submissions. Find the broken deployment. Approve the payment.
+
+**What should this feel like?** In words that mean something. "Clean" means nothing. Warm like a notebook? Cold like a terminal? Dense like a trading floor?
+
+If you cannot answer these with specifics, stop and ask the user. Do not guess. Do not default.
+
 ## Before Writing Each Component
 
-**Every time** you write UI code — even small additions — state:
+State the intent AND the technical approach:
 
 ```
-Depth: [your approach — borders / subtle shadows / layered]
-Surfaces: [your elevation scale — must be barely different, not dramatic]
-Borders: [your opacity — must be low, not solid colors]
-Spacing: [your base unit — all values must be multiples]
+Intent: [who, what they need to do, how it should feel]
+Depth: [borders / subtle shadows / layered — and WHY]
+Surfaces: [your elevation scale — and WHY this temperature]
+Typography: [your typeface choice — and WHY it fits the intent]
+Spacing: [your base unit]
 ```
 
-This checkpoint is mandatory. It reinforces the backbone: **subtle layering**. Surfaces barely different but distinguishable. Borders light but not invisible. The specific values are yours to decide — the principle is not.
+Every choice must be explainable. If your answer is "it's common" or "it works" — you haven't chosen. You've defaulted.
 
-If you can't state these confidently, re-read `SKILL.md`.
+**The test:** If another AI given a similar prompt would produce the same output, you have failed. The interface must emerge from THIS user, THIS problem, THIS intent.
 
 ## Communication
 
