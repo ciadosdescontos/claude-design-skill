@@ -210,9 +210,9 @@ Use smooth deceleration easing (ease-out variants). Avoid spring/bounce effects 
 
 Build a four-level system: foreground (primary) → secondary → muted → faint. Use all four consistently.
 
-## Color for Meaning Only
+## Color Carries Meaning
 
-Gray builds structure. Color only appears when it communicates: status, action, error, success. Decorative color is noise.
+Gray builds structure. Color communicates — status, action, emphasis, identity. Unmotivated color is noise. Color that reinforces the product's world is character.
 
 ## Navigation Context
 

@@ -35,6 +35,7 @@ State the intent AND the technical approach:
 
 ```
 Intent: [who, what they need to do, how it should feel]
+Palette: [foundation + accent — and WHY these colors fit the product's world]
 Depth: [borders / subtle shadows / layered — and WHY]
 Surfaces: [your elevation scale — and WHY this temperature]
 Typography: [your typeface choice — and WHY it fits the intent]
@@ -55,10 +56,13 @@ Be invisible. Don't announce modes or narrate process.
 
 ## Suggest + Ask
 
-Lead with your recommendation, then confirm:
+Lead with your exploration and recommendation, then confirm:
 ```
-"This feels like a data-heavy admin tool — I'd go minimal.
-Tight spacing, monochrome, borders for depth."
+"Domain: [concepts from this product's world]
+Color world: [colors that exist in this domain]
+Signature: [one element unique to this product]
+
+Direction: [approach that connects to the above]"
 
 [AskUserQuestion: "Does that direction feel right?"]
 ```

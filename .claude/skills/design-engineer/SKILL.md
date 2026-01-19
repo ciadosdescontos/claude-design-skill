@@ -73,9 +73,11 @@ The difference: time in the product's world before any visual or structural thin
 
 ## Required Outputs
 
-**Do not propose any direction until you produce all three:**
+**Do not propose any direction until you produce all four:**
 
 **Domain:** Concepts, metaphors, vocabulary from this product's world. Not features — territory. Minimum 5.
+
+**Color world:** What colors exist naturally in this product's domain? Not "warm" or "cool" — go to the actual world. If this product were a physical space, what would you see? What colors belong there that don't belong elsewhere? List 5+.
 
 **Signature:** One element — visual, structural, or interaction — that could only exist for THIS product. If you can't name one, keep exploring.
 
@@ -85,6 +87,7 @@ The difference: time in the product's world before any visual or structural thin
 
 Your direction must explicitly reference:
 - Domain concepts you explored
+- Colors from your color world exploration
 - Your signature element
 - What replaces each default
 
@@ -125,12 +128,39 @@ Vary the execution. Vary the emphasis. Vary the density.
 
 ---
 
+# Color Lives Somewhere
+
+Every product exists in a world. That world has colors.
+
+Before you reach for a palette, spend time in the product's world. What would you see if you walked into the physical version of this space? What materials? What light? What objects?
+
+Your palette should feel like it came FROM somewhere — not like it was applied TO something.
+
+## Beyond Warm and Cold
+
+Temperature is one axis. There are others.
+
+Is this quiet or loud? Dense or spacious? Serious or playful? Geometric or organic? Does it whisper or announce?
+
+A trading terminal and a meditation app are both "focused" — completely different kinds of focus. Find the specific quality, not the generic label.
+
+## Color Carries Meaning
+
+Gray builds structure. Color communicates.
+
+Don't spray color around for decoration. When color appears, it should mean something — status, action, emphasis, identity. Unmotivated color is noise. Color that reinforces the product's world is character.
+
+One accent color, used with intention, beats five colors used without thought.
+
+---
+
 # Before Writing Each Component
 
 **Every time** you write UI code — even small additions — state:
 
 ```
 Intent: [who is this human, what must they do, how should it feel]
+Palette: [colors from your exploration — and WHY they fit this product's world]
 Depth: [borders / shadows / layered — and WHY this fits the intent]
 Surfaces: [your elevation scale — and WHY this color temperature]
 Typography: [your typeface — and WHY it fits the intent]
@@ -166,7 +196,7 @@ Sharper feels technical. Rounder feels friendly. Pick a scale and apply consiste
 Headlines need weight and tight tracking. Body needs readability. Data needs monospace. Build a hierarchy.
 
 ## Color & Surfaces
-Gray builds structure. Color communicates meaning — status, action, emphasis. Decorative color is noise.
+Gray builds structure. Color communicates — status, action, emphasis, identity. Unmotivated color is noise. Color that reinforces the product's world is character.
 
 Build from primitives: foreground (text hierarchy), background (surface elevation), border (separation hierarchy), brand, and semantic (destructive, warning, success). Every color should trace back to these. No random hex values — everything maps to the system.
 
@@ -241,6 +271,7 @@ Be invisible. Don't announce modes or narrate process.
 Lead with your exploration and recommendation, then confirm:
 ```
 "Domain: [5+ concepts from the product's world]
+Color world: [5+ colors that exist in this domain]
 Signature: [one element unique to this product]
 Rejecting: [default 1] → [alternative], [default 2] → [alternative], [default 3] → [alternative]
 
@@ -253,8 +284,8 @@ Direction: [approach that connects to the above]"
 Read `.design-engineer/system.md` and apply. Decisions are made.
 
 ## If No system.md
-1. Explore domain — Produce the three required outputs (domain, signature, defaults)
-2. Propose — Direction must reference all three; apply the proposal test
+1. Explore domain — Produce all four required outputs (domain, color world, signature, defaults)
+2. Propose — Direction must reference all four; apply the proposal test
 3. Confirm — Get user buy-in
 4. Build — Apply principles
 5. Offer to save
@@ -265,7 +296,6 @@ Read `.design-engineer/system.md` and apply. Decisions are made.
 
 For more detail on specific topics:
 - `references/principles.md` — Code examples, specific values, dark mode
-- `references/directions.md` — The 6 design personalities
 - `references/validation.md` — Memory management, when to update system.md
 
 # Commands
