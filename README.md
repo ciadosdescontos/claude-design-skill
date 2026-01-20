@@ -15,8 +15,8 @@
 <p align="center">
   <a href="#installation">Install</a> ·
   <a href="#how-it-works">How It Works</a> ·
-  <a href="#examples">Examples</a> ·
-  <a href="https://dashboard-v4-eta.vercel.app">Demo</a>
+  <a href="https://interface-design.dev/examples.html">Examples</a> ·
+  <a href="https://interface-design.dev">Website</a>
 </p>
 
 ---
@@ -47,7 +47,7 @@ Make choices once. Apply them consistently.
 - Spacing on grid (4px, 8px, 12px, 16px)
 - Consistent depth and surface treatment throughout
 
-See the difference: **[dashboard-v4-eta.vercel.app](https://dashboard-v4-eta.vercel.app)**
+See the difference: **[interface-design.dev/examples.html](https://interface-design.dev/examples.html)**
 
 ---
 
@@ -227,7 +227,9 @@ The skill infers direction from project context, but you can customize:
 
 ## Examples
 
-See `reference/examples/` for complete system files:
+See live examples at **[interface-design.dev/examples.html](https://interface-design.dev/examples.html)**
+
+For system file templates, see `reference/examples/`:
 - **[system-precision.md](reference/examples/system-precision.md)** — Dashboard/admin interfaces
 - **[system-warmth.md](reference/examples/system-warmth.md)** — Collaborative/consumer apps
 
